@@ -2,7 +2,7 @@
   "name": "@pirxpilot/nanotiming",
   "description": "Small timing library",
   "repository": "pirxpilot/nanotiming",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "browser": {
     "./index.js": "./browser.js",
