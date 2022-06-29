@@ -1,4 +1,4 @@
-var scheduler = require('nanoscheduler')()
+var scheduler = require('@pirxpilot/nanoscheduler')()
 var assert = require('assert')
 
 var perf
