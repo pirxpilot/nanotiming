@@ -1,7 +1,7 @@
 {
-  "name": "nanotiming",
+  "name": "@pirxpilot/nanotiming",
   "description": "Small timing library",
-  "repository": "choojs/nanotiming",
+  "repository": "pirxpilot/nanotiming",
   "version": "7.3.1",
   "main": "index.js",
   "browser": {
@@ -9,19 +9,14 @@
     "assert": "nanoassert"
   },
   "scripts": {
-    "start": "node .",
-    "test": "standard",
-    "coverage": "nyc report --reporter=text-lcov > coverage.lcov"
+    "test": "standard"
   },
   "dependencies": {
     "nanoassert": "^1.1.0",
     "nanoscheduler": "^1.0.2"
   },
   "devDependencies": {
-    "dependency-check": "^2.8.0",
-    "nyc": "^10.2.0",
-    "standard": "^10.0.1",
-    "tape": "^4.6.3"
+    "standard": "^10.0.1"
   },
   "keywords": [
     "browser",
@@ -30,5 +25,9 @@
     "measure",
     "performance"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "browser.js"
+  ]
 }

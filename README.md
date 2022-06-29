@@ -1,7 +1,10 @@
-# nanotiming [![stability][0]][1]
-[![npm version][2]][3] [![build status][4]][5]
-[![downloads][8]][9] [![js-standard-style][10]][11]
+[![NPM version][npm-image]][npm-url]
+[![Build Status][build-image]][build-url]
+[![Dependency Status][deps-image]][deps-url]
 
+# @pirxpilot/nanotiming
+
+Fork of [nanotiming].
 Small timing library. Useful to integrate into libraries that have multiple
 methods. Works both in the browser and Node. To use this in Node, make sure you
 are using v8.5.0 or greater.
@@ -71,15 +74,13 @@ measuring wasn't successful) and the timing's name.
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
 
-[0]: https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square
-[1]: https://nodejs.org/api/documentation.html#documentation_stability_index
-[2]: https://img.shields.io/npm/v/nanotiming.svg?style=flat-square
-[3]: https://npmjs.org/package/nanotiming
-[4]: https://img.shields.io/travis/choojs/nanotiming/master.svg?style=flat-square
-[5]: https://travis-ci.org/choojs/nanotiming
-[6]: https://img.shields.io/codecov/c/github/choojs/nanotiming/master.svg?style=flat-square
-[7]: https://codecov.io/github/choojs/nanotiming
-[8]: http://img.shields.io/npm/dm/nanotiming.svg?style=flat-square
-[9]: https://npmjs.org/package/nanotiming
-[10]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
-[11]: https://github.com/feross/standard
+[nanotiming]: https://npmjs.org/package/nanotiming
+
+[npm-image]: https://img.shields.io/npm/v/@pirxpilot/nanotiming
+[npm-url]: https://npmjs.org/package/@pirxpilot/nanotiming
+
+[build-url]: https://github.com/pirxpilot/nanotiming/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/workflow/status/pirxpilot/nanotiming/check
+
+[deps-image]: https://img.shields.io/librariesio/release/npm/@pirxpilot/nanotiming
+[deps-url]: https://libraries.io/npm/@pirxpilot%2Fnanotiming
