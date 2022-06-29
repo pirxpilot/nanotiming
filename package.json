@@ -2,21 +2,21 @@
   "name": "@pirxpilot/nanotiming",
   "description": "Small timing library",
   "repository": "pirxpilot/nanotiming",
-  "version": "7.3.1",
+  "version": "0.0.0",
   "main": "index.js",
   "browser": {
     "./index.js": "./browser.js",
-    "assert": "nanoassert"
+    "assert": "@pirxpilot/nanoassert"
   },
   "scripts": {
     "test": "standard"
   },
   "dependencies": {
-    "nanoassert": "^1.1.0",
-    "nanoscheduler": "^1.0.2"
+    "@pirxpilot/nanoassert": "^1.0.0",
+    "@pirxpilot/nanoscheduler": "^1.0.0"
   },
   "devDependencies": {
-    "standard": "^10.0.1"
+    "standard": "~17"
   },
   "keywords": [
     "browser",
