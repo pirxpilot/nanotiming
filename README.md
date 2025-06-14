@@ -80,7 +80,7 @@ measuring wasn't successful) and the timing's name.
 [npm-url]: https://npmjs.org/package/@pirxpilot/nanotiming
 
 [build-url]: https://github.com/pirxpilot/nanotiming/actions/workflows/check.yaml
-[build-image]: https://img.shields.io/github/workflow/status/pirxpilot/nanotiming/check
+[build-image]: https://img.shields.io/github/actions/workflow/status/pirxpilot/nanotiming/check.yaml?branch=main
 
 [deps-image]: https://img.shields.io/librariesio/release/npm/@pirxpilot/nanotiming
 [deps-url]: https://libraries.io/npm/@pirxpilot%2Fnanotiming
